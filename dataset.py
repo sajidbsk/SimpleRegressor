@@ -5,6 +5,7 @@ import linear-regressor as lr
 dataset = pd.read_csv('data.csv', header=None)
 a = dataset.values.tolist()
 
+correlation(a)
 #Prediction done here:
 def predictor():
 	flag = 1
